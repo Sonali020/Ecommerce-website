@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopholic</title>
+    <link rel="stylesheet" href="ecom.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to SHOPHOLIC</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+            <div id="product-list" class="product-list">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Cart Bucket</h2>
+            <div id="cart-list" class="cart-list">
+                <!-- Cart items will be dynamically loaded here -->
+            </div>
+            <div id="total-price">Total: $0.00</div>
+            <button id="checkout-button">Logout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Shopholic 2024</p>
+    </footer>
+    <script src="ecom.js"></script>
+</body>
+</html>
